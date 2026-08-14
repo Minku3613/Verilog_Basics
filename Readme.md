@@ -62,12 +62,18 @@ The projects progress from basic combinational circuits to sequential logic, pro
 - D Flip-Flop
 - JK Flip-Flop
 - SR Flip-Flop
+- T Flip-Flop
 
 🧮 Arithmetic Circuits
 
 - Adders
 - Subtractors
 - Adder/Subtractor Unit
+
+🔄 Code Converters
+
+- Binary to Gray code conveter
+- Gray to Binary code converter
 
 🧪 Testbenches
 
@@ -82,16 +88,19 @@ VERILOG_BASICS/
 ├── 16BIT_ADDER/
 ├── ADD_SUB_4BIT/
 ├── AND_GATE/
+|__ Binary_to_Gray_Code_Converter/
 ├── COMPARATOR_1BIT/
 ├── COMPARATOR_2BIT/
 ├── COMPARATOR_4BIT/
 ├── D_FLIP_FLOP/
+|__ D_Latch/
 ├── DECODER_2to4/
 ├── DECODER_3to8/
 ├── DMUX_1to2/
 ├── ENCODER_8to3/
 ├── FULL_ADDER/
 ├── FULL_SUBTRACTOR/
+|__ Gray_to_Binary_Code_Converter/
 ├── HALF_ADDER/
 ├── HALF_SUBTRACTOR/
 ├── JK_FLIP_FLOP/
@@ -100,6 +109,7 @@ VERILOG_BASICS/
 ├── MUX_16to1/
 ├── PRIORITY_ENCODER_8to3/
 ├── SR_FLIP_FLOP/
+|__ T_Flip_Flp/
 ├── XNOR_GATE/
 │
 └── README.md
